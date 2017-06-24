@@ -3,7 +3,7 @@ package com.heitian.ssm.model;
 import java.util.Date;
 
 /**
- * Created by Zhangxq on 2016/7/15.
+ * Created by sjj on 2017.6.24
  */
 public class User {
 
