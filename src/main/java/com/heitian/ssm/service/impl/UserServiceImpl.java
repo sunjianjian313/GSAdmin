@@ -10,7 +10,9 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
- * Created by Zhangxq on 2016/7/15.
+ *
+ * @author Zhangxq
+ * @date 2016/7/15
  */
 
 @Service
@@ -24,6 +26,7 @@ public class UserServiceImpl implements UserService {
         return userDao.selectUserById(userId);
     }
     
+    @Override
     public User getUserByPhoneOrEmail(String emailOrPhone, Short state) {
         return userDao.selectUserByPhoneOrEmail(emailOrPhone,state);
     }

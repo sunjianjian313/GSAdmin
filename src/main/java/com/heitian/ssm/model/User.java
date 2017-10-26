@@ -3,7 +3,9 @@ package com.heitian.ssm.model;
 import java.util.Date;
 
 /**
- * Created by sjj on 2017.6.24
+ *
+ * @author sjj
+ * @date 2017.6
  */
 public class User {
 
